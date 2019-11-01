@@ -41,7 +41,7 @@ export default mixins(Colorable, Delayable, Dependent, Detachable, Menuable, Tog
     },
     tabindex: {
       type: Number,
-      default: 0
+      default: 0,
     },
     tag: {
       type: String,
