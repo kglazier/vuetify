@@ -39,6 +39,10 @@ export default mixins(Colorable, Delayable, Dependent, Detachable, Menuable, Tog
       type: Boolean,
       default: true,
     },
+    tabindex: {
+      type: Number,
+      default: 0
+    },
     tag: {
       type: String,
       default: 'span',
